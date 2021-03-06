@@ -10,41 +10,21 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Welcome</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarColor02">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Latitude
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plot Visualizations</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="./Assets/html/lat_1.html">Max Temperature</a>
-            <a class="dropdown-item" href="./Assets/html/lat_2.html">Humidity</a>
-            <a class="dropdown-item" href="./Assets/html/lat_3.html">Cloudiness</a>
-            <a class="dropdown-item" href="./Assets/html/lat_4.html">Wind Speed</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Data</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active"><a href="index.html">Welcome</a></li>
+    <li class="breadcrumb-item active"><a href="index.html">Latitude</a></li>
+    <li class="breadcrumb-item">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plot Visualizations</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="./Assets/html/max_temperature.html">Max Temperature</a>
+        <a class="dropdown-item" href="./Assets/html/humidity.html">Humidity</a>
+        <a class="dropdown-item" href="./Assets/html/cloudiness.html">Cloudiness</a>
+        <a class="dropdown-item" href="./Assets/html/wind_speed.html">Wind Speed</a>
+      </div>
+    </li>
+    <li class="breadcrumb-item"><a href="./Assets/html/comparison.html">Comparison</a></li>
+    <li class="breadcrumb-item"><a href="./Assets/html/data.html">Data</a></li>
+  </ol>
   
   <div class="container-fluid">
     <h3> </h3>
@@ -54,35 +34,21 @@
               <div class="jumbotron">
                 <h1 class="display-4">Jumbotron!</h1>
                 <p class="lead">This is placed inside a container</p>
-              </div>
+              </div>  
             </div>
           </div>
           <div class="col-md-3">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item active"><a href="">Latitude</a></li>
-              <li class="breadcrumb-item">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plot Visualizations</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="./Assets/html/lat_1.html">Max Temperature</a>
-                  <a class="dropdown-item" href="./Assets/html/lat_2.html">Humidity</a>
-                  <a class="dropdown-item" href="./Assets/html/lat_3.html">Cloudiness</a>
-                  <a class="dropdown-item" href="./Assets/html/lat_4.html">Wind Speed</a>
-                </div>
-              </li>
-              <li class="breadcrumb-item"><a href="./Assets/html/comparison.html">Comparison</a></li>
-              <li class="breadcrumb-item"><a href="./Assets/html/data.html">Data</a></li>
-            </ol>
             <div class="thumbnail">
-              <a href="./Assets/html/lat_1.html"><img src="./Visualizations/City Latitude vs. Max Temperature - Scatter.png" alt="..." class="img-thumbnail"></a>
+              <a href="./Assets/html/max_temperature.html"><img src="./Visualizations/City Latitude vs. Max Temperature - Scatter.png" alt="..." class="img-thumbnail"></a>
             </div>
             <div class="thumbnail">
-              <br><img src="./Visualizations/City Latitude vs. Humidity - Scatter.png" alt="..." class="img-thumbnail">
+              <br><a href="./Assets/html/humidity.html"><img src="./Visualizations/City Latitude vs. Humidity - Scatter.png" alt="..." class="img-thumbnail"></a>
             </div>
               <div class="thumbnail">
-                <br><img src="./Visualizations/City Latitude vs. Cloudiness - Scatter.png" alt="..." class="img-thumbnail">
+                <br><a href="./Assets/html/cloudiness.html"><img src="./Visualizations/City Latitude vs. Cloudiness - Scatter.png" alt="..." class="img-thumbnail"></a>
               </div>
               <div class="thumbnail">
-                <br><img src="./Visualizations/City Latitude vs. Wind Speed - Scatter.png" alt="..." class="img-thumbnail">
+                <br><a href="./Assets/html/wind_speed.html"><img src="./Visualizations/City Latitude vs. Wind Speed - Scatter.png" alt="..." class="img-thumbnail"></a>
               </div>
           </div>
       </div>

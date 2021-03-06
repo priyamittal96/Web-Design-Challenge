@@ -11,20 +11,57 @@
 <body>
 
   <ol class="breadcrumb">
-    <li class="breadcrumb-item active"><a href="../../">Latitude</a></li>
+    <li class="breadcrumb-item active"><a href="../../index.html">Welcome</a></li>
+    <li class="breadcrumb-item active"><a href="../../index.html">Latitude</a></li>
     <li class="breadcrumb-item">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plot Visualizations</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="lat_1.html">Max Temperature</a>
-        <a class="dropdown-item" href="lat_2.html">Humidity</a>
-        <a class="dropdown-item" href="lat_3.html">Cloudiness</a>
-        <a class="dropdown-item" href="lat_4.html">Wind Speed</a>
+        <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+        <a class="dropdown-item" href="humidity.html">Humidity</a>
+        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
       </div>
     </li>
     <li class="breadcrumb-item"><a href="comparison.html">Comparison</a></li>
     <li class="breadcrumb-item active"><a href="data.html">Data</a></li>
 
   </ol>
+
+    
+  <div class="container-fluid">
+    <h3> </h3>
+      <div class="row">
+          <div class="col-lg-9">
+            <div class="container-fluid">
+              <div class="jumbotron">
+                <h1 class="display-4">Jumbotron!</h1>
+                <p class="lead">This is placed inside a container</p>
+              </div>  
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <a href="max_temperature.html"><img src="../../Visualizations/City Latitude vs. Max Temperature - Scatter.png" alt="..." class="img-thumbnail"></a>
+            </div>
+            <div class="thumbnail">
+              <br><a href="html/humidity.html"><img src="../../Visualizations/City Latitude vs. Humidity - Scatter.png" alt="..." class="img-thumbnail"></a>
+            </div>
+              <div class="thumbnail">
+                <br><a href="html/cloudiness.html"><img src="../../Visualizations/City Latitude vs. Cloudiness - Scatter.png" alt="..." class="img-thumbnail"></a>
+              </div>
+              <div class="thumbnail">
+                <br><a href="html/wind_speed.html"><img src="../../Visualizations/City Latitude vs. Wind Speed - Scatter.png" alt="..." class="img-thumbnail"></a>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
