@@ -59,19 +59,17 @@
               <h1 class="display-4">Latitude v Cloudiness</h1>
               <hr class="my-4">
               <p class="lead"><img src="../../Visualizations/City Latitude vs. Cloudiness - Scatter.png" alt="alt text" style="float: left" hspace="25">
-                The purpose is to evaluate the weather conditions in relation to the latitude and determine ideal vacation locations 
-                and corresponding hotels in the given cities. </p>
-              <p class="lead">Data was pulled from the OpenWeather API and Google Maps APIs to generate random cities and determine 
-                weather and visualize on a map. Matplotlib was used in combination with pandas in the python script and generated through jupyter notebooks, this allowed for 
-                ease of edit, update, and viewing of the weather and map data.
+                There appears to be no apparent correlation between latitude and cloudiness, in the northern hemisphere or southern hemispheres. 
+                However, when looking at the graph the cloudiness tends to cluster around certain percentage values, which may be an indicator
+                that cloudiness may be a result of the altitude of a city and less so the latitudes of the cities themselves.  
               </p>
-              <p class="lead">The WeatherPy notebook selects and details cities and the weather data using the weather API. Using that to then plot 
-                various scatter plots and linear regressions between latitude and a variety of variables. Further analyzing then between the two hemispheres, 
-                northern and southern, based on the latitude and the given variables.
+              <p class="lead">
+                Given how cloudiness appears across a variety of latitudes, cloudiness could be a result of a variety of weather conditions that could
+                allow for cloudiness. Generally cloudiness can be associated with rainier weather or storms. However, warmer weathers can also result in cloudiness. 
               </p>
-              <p class="lead">The VacationPy notebook takes the given city weather and location data from the WeatherPy notebook and, using gmaps, plots it in a heat map 
-                based on humidity. After filtering the cities for ideal weather conditions and then locating the nearest hotels within a 5000 meter radius, I added 
-                markers to the heat map to indicate the locations of the hotel and the correspinding city and country.
+              <p class="lead">
+                As such, additional data points may need to be collected in order to determine how cloudiness may be correlated to other 
+                locations or weather conditions and patterns. 
               </p>
             </div>  
           </div>

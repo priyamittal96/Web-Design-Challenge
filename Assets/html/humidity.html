@@ -59,19 +59,15 @@
               <h1 class="display-4">Latitude v Humidity</h1>
               <hr class="my-4">
               <p class="lead"><img src="../../Visualizations/City Latitude vs. Humidity - Scatter.png" alt="alt text" style="float: left" hspace="25">
-                The purpose is to evaluate the weather conditions in relation to the latitude and determine ideal vacation locations 
-                and corresponding hotels in the given cities. </p>
-              <p class="lead">Data was pulled from the OpenWeather API and Google Maps APIs to generate random cities and determine 
-                weather and visualize on a map. Matplotlib was used in combination with pandas in the python script and generated through jupyter notebooks, this allowed for 
-                ease of edit, update, and viewing of the weather and map data.
+                While there appears to be no strong relation between latitude and humidity, it generally clustered around 0 degrees and 
+                higher latitudes in the northern hemisphere (between 40 and 60 deegrees). This could be a result of local weather conditions affecting the
+                humidity. 
               </p>
-              <p class="lead">The WeatherPy notebook selects and details cities and the weather data using the weather API. Using that to then plot 
-                various scatter plots and linear regressions between latitude and a variety of variables. Further analyzing then between the two hemispheres, 
-                northern and southern, based on the latitude and the given variables.
-              </p>
-              <p class="lead">The VacationPy notebook takes the given city weather and location data from the WeatherPy notebook and, using gmaps, plots it in a heat map 
-                based on humidity. After filtering the cities for ideal weather conditions and then locating the nearest hotels within a 5000 meter radius, I added 
-                markers to the heat map to indicate the locations of the hotel and the correspinding city and country.
+              <p class="lead"> 
+                The <a href="max_temperature.html">Latitude v Max Temperature</a> notes that higher latitudes tend to be colder and that temperatures around 
+                the equator (0 degress latitude) tend to be wearmer. The colder weathers could indicate an onset of more storms while weather around the equator
+                could be in locations like islands where it tends to be humid. This could be explain why there are slight clustering in those general latitude
+                regions for humidity.
               </p>
             </div>  
           </div>
