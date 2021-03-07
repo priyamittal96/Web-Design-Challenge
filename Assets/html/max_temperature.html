@@ -58,20 +58,14 @@
             <div class="jumbotron">
               <h1 class="display-4">Latitude v Max Temperature</h1>
               <hr class="my-4">
-              <p class="lead"><img src="../../Visualizations/City Latitude vs. Max Temperature - Scatter.png" alt="alt text" style="float: left" hspace="25" vspace="25">
-                The purpose is to evaluate the weather conditions in relation to the latitude and determine ideal vacation locations 
-                and corresponding hotels in the given cities. </p>
-              <p class="lead">Data was pulled from the OpenWeather API and Google Maps APIs to generate random cities and determine 
-                weather and visualize on a map. Matplotlib was used in combination with pandas in the python script and generated through jupyter notebooks, this allowed for 
-                ease of edit, update, and viewing of the weather and map data.
+              <p class="lead"><img src="../../Visualizations/City Latitude vs. Max Temperature - Scatter.png" alt="alt text" style="float: left" hspace="25">
+                As expected, the weather begins to increase the closer one approaches the equator from either equator. In the graph, this is noted to be 
+                0 degrees latitude. However, it should be noted that the southern hemisphere (latitudes below 0 degrees) tend to be warmer compared to the 
+                latitudes counterpart in the northern hemisphere.
+                This could be a result of the to the winter temperatures in the northern hemisphere and warmer weathers in the south hemisphere during 
+                January, which is when the data was pulled (as noted in the timestamp of the image).
               </p>
-              <p class="lead">The WeatherPy notebook selects and details cities and the weather data using the weather API. Using that to then plot 
-                various scatter plots and linear regressions between latitude and a variety of variables. Further analyzing then between the two hemispheres, 
-                northern and southern, based on the latitude and the given variables.
-              </p>
-              <p class="lead">The VacationPy notebook takes the given city weather and location data from the WeatherPy notebook and, using gmaps, plots it in a heat map 
-                based on humidity. After filtering the cities for ideal weather conditions and then locating the nearest hotels within a 5000 meter radius, I added 
-                markers to the heat map to indicate the locations of the hotel and the correspinding city and country.
+              <p>
               </p>
             </div>  
           </div>
@@ -81,7 +75,7 @@
             <div class="jumbotron">
               <h1 class="display-4">Visualizations</h1>
               <hr class="my-4">
-              <p class="lead">Click any plot to get an in-depth analysis</p>
+              <p1 class="lead">Click any plot to get an in-depth analysis</p1>
               <div class="row">
                   <div class="col-md-6">
                     <div class="thumbnail">
